@@ -1,6 +1,6 @@
 package io.github.Oleiva.services.Impl;
 
-import io.github.Oleiva.dao.ItemsDao;
+import io.github.Oleiva.jpa.ItemsDao;
 import io.github.Oleiva.entity.ItemsEntity;
 import io.github.Oleiva.services.ItemsService;
 import org.springframework.beans.factory.annotation.Autowired;

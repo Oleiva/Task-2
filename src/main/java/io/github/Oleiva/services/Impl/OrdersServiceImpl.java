@@ -1,7 +1,7 @@
 package io.github.Oleiva.services.Impl;
 
-import io.github.Oleiva.dao.OrdersDao;
-import io.github.Oleiva.dao.TransactionsDao;
+import io.github.Oleiva.jpa.OrdersDao;
+import io.github.Oleiva.jpa.TransactionsDao;
 import io.github.Oleiva.entity.OrdersEntity;
 import io.github.Oleiva.entity.TransactionsEntity;
 import io.github.Oleiva.services.OrdersService;

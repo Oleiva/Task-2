@@ -1,6 +1,5 @@
-package io.github.Oleiva.dao;
+package io.github.Oleiva.jpa;
 
-import io.github.Oleiva.entity.CustomersEntity;
 import io.github.Oleiva.entity.ShippingAddressesEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 

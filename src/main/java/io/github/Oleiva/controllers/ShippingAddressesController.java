@@ -1,6 +1,6 @@
 package io.github.Oleiva.controllers;
 
-import io.github.Oleiva.dao.ShippingAddressesDao;
+import io.github.Oleiva.jpa.ShippingAddressesDao;
 import io.github.Oleiva.entity.ShippingAddressesEntity;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;

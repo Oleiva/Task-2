@@ -1,9 +1,9 @@
 package io.github.Oleiva.controllers;
 
-import io.github.Oleiva.dao.CustomersDao;
-import io.github.Oleiva.dao.ItemsDao;
-import io.github.Oleiva.dao.OrdersDao;
-import io.github.Oleiva.dao.ShippingAddressesDao;
+import io.github.Oleiva.jpa.CustomersDao;
+import io.github.Oleiva.jpa.ItemsDao;
+import io.github.Oleiva.jpa.OrdersDao;
+import io.github.Oleiva.jpa.ShippingAddressesDao;
 import io.github.Oleiva.dto.pojo.OrderPojo;
 import io.github.Oleiva.dto.pojo.ResponsePojo;
 import io.github.Oleiva.entity.OrdersEntity;

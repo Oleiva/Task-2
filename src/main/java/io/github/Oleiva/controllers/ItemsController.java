@@ -1,11 +1,9 @@
 package io.github.Oleiva.controllers;
 
-import io.github.Oleiva.dao.ItemsDao;
+import io.github.Oleiva.jpa.ItemsDao;
 //import io.github.Oleiva.dto.pojo.ResponseDTO;
-import io.github.Oleiva.entity.CustomersEntity;
 import io.github.Oleiva.entity.ItemsEntity;
 import org.apache.log4j.Logger;
-import org.jboss.logging.annotations.Param;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

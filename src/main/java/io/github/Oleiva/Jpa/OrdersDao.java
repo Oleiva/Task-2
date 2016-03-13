@@ -1,12 +1,8 @@
-package io.github.Oleiva.dao;
+package io.github.Oleiva.jpa;
 
-import io.github.Oleiva.entity.CustomersEntity;
 import io.github.Oleiva.entity.OrdersEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
-
-import java.util.Collection;
-import java.util.List;
 
 public interface OrdersDao  extends JpaRepository<OrdersEntity, Long> {
 
